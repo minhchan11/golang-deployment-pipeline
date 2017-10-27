@@ -40,7 +40,7 @@ Parameters:
     VPC:
         Description: Please enter the VPC ID
         Type: String
-        Default: vpc-2330975b
+        Default: vpc-aacee9cc
 
     PublicSubnet1CIDR:
         Description: Please enter the IP range (CIDR notation) for the public subnet in the first Availability Zone
@@ -65,7 +65,7 @@ Parameters:
     InternetGateway:
         Description: Internet Gateway ID
         Type: String
-        Default: igw-8ff65cf6
+        Default: igw-f788be90
 
 Mappings:
 
