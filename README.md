@@ -2,7 +2,11 @@
 
 ![pipeline-screenshot](images/pipeline-screenshot.png)
 
-# MUST CREATE S3 AND STACK IN US WEST FOR THIS TO WORK!!!!!
+# MUST CREATE S3, VPC AND STACK IN US WEST FOR THIS TO WORK!!!!!
+
+## must change the assumeRole in one of the cloudformation to codepipeline
+## attach the different roles to codebuild, etc
+## must attach cloudwatch to codebuild
 
 This repository provides an easy-to-deploy pipeline for the development, testing, building and deployment of applications written in Go. Although this example is tailored to Go, it can be easily modified to deploy applications written in other languages too.
 
